@@ -1,0 +1,48 @@
+.navbar {
+  font-size: 18px;
+  background-color: rgba(0, 76, 153,0);
+  font-family: Lato, Futura, Copperplate-Light, Avenir Next, Georgia;
+  text-decoration: none;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: #fff;
+  padding: 11px 25px;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  float: right;
+}
+
+.logo {
+  font-size: 45px;
+}
+
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Futura, Avenir;
+  background-image: url("Capture.PNG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
